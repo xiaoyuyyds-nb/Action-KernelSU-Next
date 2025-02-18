@@ -35,7 +35,7 @@ on:
       KERNEL_NAME:
         description: "自定义内核后版本名"
         required: false
-        default: ''
+        default: '5.15.149-by-06-xiaoyu'
 jobs:
   build:
     runs-on: ubuntu-latest
